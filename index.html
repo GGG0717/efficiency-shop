@@ -74,8 +74,9 @@
   微信扫码即付 · 付款后自助下载 · 打不开凭订单号重发或退款
 </div>
 <style id="public-tighten">
-  .grid{grid-template-columns:repeat(2,1fr)}
-  .card:has([data-sku="pro"]){display:none}
+  .grid{grid-template-columns:minmax(0,430px);justify-content:center}
+  .card:has([data-sku="pro"]),
+  .card:has([data-sku="prompts"]){display:none}
 </style>
 
 <header>
@@ -94,8 +95,8 @@
 
 <section>
   <div class="wrap">
-    <h2>三个版本，按你需要选</h2>
-    <p class="sub">都包含完整授权与后续小版本更新。</p>
+    <h2>一个版本，买断不订阅</h2>
+    <p class="sub">含 Excel 模板 + 20 条提示词 + 3 套详情页样板，付款后自助下载。</p>
     <div class="grid">
 
       <div class="card">
