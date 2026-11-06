@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ggg0717.github.io/efficiency-shop/sitemap.xml
