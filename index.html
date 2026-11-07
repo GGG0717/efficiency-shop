@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -111,29 +111,42 @@
       </div>
 
       <div class="card hot">
-        <h3>课程《7 天做对一个小店》</h3>
-        <p class="muted">不听完就有作业，做完才算学完</p>
-        <p class="price">¥49<s>¥199</s></p>
+        <h3>店内主图 + 详情页代做（实体店）</h3>
+        <p class="muted">你拍张店里照片，剩下的我写</p>
+        <p class="price">¥39<s>¥129</s></p>
         <ul class="pts">
-          <li>7 天作业：4 张表 + 详情页 5 屏 + 主图 3 张 + 话术五类</li>
-          <li>诊断图：掉的这周，是流量掉了还是转化掉了</li>
-          <li>真 ROI 算法，纠正"销售额÷广告费"这个假指标</li>
-          <li><b>30 天无效退款</b>，说一句"没用"就退，不问理由</li>
+          <li>3 张主图文案 + 版式（同城客户看得懂的那种）</li>
+          <li>详情页 5 屏：这是啥店 / 凭什么来 / 什么场景 / 多少钱 / 怎么放心来</li>
+          <li>配 1 组同城获客的标题（不是套模板，按你的商圈写）</li>
+          <li><b>24 小时交付，改到你不用改</b>；不满意全额退</li>
         </ul>
-        <button class="btn" data-sku="course">买课程</button>
+        <button class="btn" data-sku="detail">要这个</button>
       </div>
 
       <div class="card">
-        <h3>陪跑（代做 + 一对一）</h3>
-        <p class="muted">不想自己填表，我替你做</p>
+        <h3>开张包（新店/要重做的店）</h3>
+        <p class="muted">一次把门头和账都弄对</p>
         <p class="price">¥99<s>¥299</s></p>
         <ul class="pts">
-          <li>详情页 5 屏文案 + 3 张主图文案，我写好给你</li>
-          <li>日报表按你的指标定制好，你只填数字</li>
-          <li>客服话术按你的品类改一版</li>
+          <li>主图 + 详情页代做（同上）</li>
+          <li>门口动线/陈列改进清单（按你的店型给）</li>
+          <li>老客激活话术 5 条 + 差评应对 3 条</li>
+          <li>一张只填 8 个数字的经营表，按你的店定制</li>
           <li>7 天内随时改，改到你说不用改</li>
         </ul>
-        <button class="btn ghost" data-sku="coach">要陪跑</button>
+        <button class="btn ghost" data-sku="bundle">要开张包</button>
+      </div>
+
+      <div class="card">
+        <h3>课程《7 天做对一个小店》</h3>
+        <p class="muted">想自己动手的看这个</p>
+        <p class="price">¥49<s>¥199</s></p>
+        <ul class="pts">
+          <li>7 天作业：4 张表 + 详情页 5 屏 + 主图 + 话术</li>
+          <li>诊断图：掉的这周，是流量掉了还是转化掉了</li>
+          <li><b>30 天无效退款</b>，说一句"没用"就退</li>
+        </ul>
+        <button class="btn ghost" data-sku="course">买课程</button>
       </div>
 
     </div>
@@ -281,8 +294,9 @@
 (function () {
   var SKUS = {
     free:   { name: '全部文件（免费领取）', price: 0 },
-    course: { name: '课程《7 天做对一个小店》', price: 49 },
-    coach:  { name: '陪跑（代做 + 一对一）', price: 99 }
+    detail: { name: '店内主图 + 详情页代做（实体店）', price: 39 },
+    bundle: { name: '开张包（新店/要重做的店）', price: 99 },
+    course: { name: '课程《7 天做对一个小店》', price: 49 }
   };
   var current = null;
 
